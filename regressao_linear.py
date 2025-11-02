@@ -61,3 +61,14 @@ plt.ylabel('Resíduos')
 plt.title('Resíduos vs Previsto')
 plt.grid(True)
 plt.show()
+
+# previsão de vendas para análise de sensibilidade
+cambio_test = np.linspace(df['taxa_de_cambio'].min()-1, df['taxa_de_cambio'].max()+1, 50)
+previcoes = model.params['const'] + model.params['taxa_de_cambio'] * cambio_test
+
+plt.plot(cambio_test, previcoes)
+plt.xlabel('Taxa de Câmbio')
+plt.ylabel('Previsão de vendas (unidades)')
+plt.title('Análise de Sensibilidade: Impacto da Taxa de Câmbio')
+plt.grid(True)
+plt.show()
