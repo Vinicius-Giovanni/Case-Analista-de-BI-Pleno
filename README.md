@@ -1,4 +1,4 @@
-# CASE - Projeto de Previsão de Demanda: Nootebooks e Variáveis Macroeconômicos
+# CASE - Projeto de Projeção de Demanda: Nootebooks e Variáveis Macroeconômicos
 ---
 <img width="1895" height="1063" alt="image" src="https://github.com/user-attachments/assets/aaf22102-042e-4525-9f59-b5975f3c12cb" />
 
@@ -254,6 +254,7 @@ Essa elasticidade negativa reforça a forte dependência do setor de tecnologia 
 **Inflação & Intervalo de Confiança em 95%**
 <img width="2288" height="1256" alt="image" src="https://github.com/user-attachments/assets/8548d563-e6ab-42f5-8251-f89cdaaf386c" />
 <img width="2372" height="1508" alt="image" src="https://github.com/user-attachments/assets/04893bff-fd3b-4df1-901b-20e7dff83f09" />
+
 
 
 
