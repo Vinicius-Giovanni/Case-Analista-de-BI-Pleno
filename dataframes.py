@@ -9,7 +9,7 @@ Etapa de investigação, compreensão e visualização dos dados antes de aplica
 
 def creating_dataframe(cols: list ) -> pd.DataFrame:
     
-    data_path = Path("C:/Users/2960006959/Desktop/project/Case-Analista-de-BI-Pleno/database/case_analista_de_bi_pleno.xlsx")
+    data_path = Path("database\case_analista_de_bi_pleno.xlsx")
 
     df = pd.read_excel(
         data_path,

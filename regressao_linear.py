@@ -7,14 +7,8 @@ import matplotlib.pyplot as plt
 df = creating_dataframe([
     'ano', 
     'pib_real_variacao_yoy',
-    'pip_per_capita',
-    'renda_media_familia_pnad',
-    'taxa_de_desemprego',
     'taxa_de_cambio',
     'inflacao',
-    'selic',
-    'populacao_total',
-    'domicilios',
     'unidades_notebooks'
 ])
 
