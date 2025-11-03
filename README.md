@@ -202,10 +202,11 @@ Após identificar a forte correlação negativa (-0,76) entre o câmbio e as ven
 
 Coeficientes do Modelo
 
-| Variável | Coeficiente | Erro Padrão | t | P>|t| | IC 95% Inferior | IC 95% Superior |
-|-----------------|-------------|------------|--------|----|----------------|----------------|
-| const | 13,660,000 | 1,390,000 | 9.84 | 0.000 | 10,600,000 | 16,700,000 |
-| taxa_de_cambio | -1,339,000 | 343,000 | -3.90 | 0.002 | -2,090,000 | -584,000 |
+|Variável|Coeficiente|Erro Padrão|t|P>t|IC 95% Inferior|IC 95% Superior|
+|--------|-----------|-----------|-|---|---------------|---------------|
+|const| 13.660.000|1.339.000|9.84|0.000|10.600.000|16.700.000|
+|taxa_de_cambio|-1.339.000|343.000|-3.90|0.002|-2.090.000|-584.000|
+
 
 ### Análise dos Resíduos - Modelo com Taxa de Câmbio
 Após o ajuste do modelo, foi analisada a distribuição dos resíduos (diferença entre valores reais e previstos) para avaliar a qualidade do ajuste e possíveis vieses.
@@ -253,6 +254,7 @@ Essa elasticidade negativa reforça a forte dependência do setor de tecnologia 
 **Inflação & Intervalo de Confiança em 95%**
 <img width="2288" height="1256" alt="image" src="https://github.com/user-attachments/assets/8548d563-e6ab-42f5-8251-f89cdaaf386c" />
 <img width="2372" height="1508" alt="image" src="https://github.com/user-attachments/assets/04893bff-fd3b-4df1-901b-20e7dff83f09" />
+
 
 
 
